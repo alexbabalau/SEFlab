@@ -21,6 +21,7 @@ public class Main {
         xmlList[4] = "text2";
         xmlList[5] = "</tag2>";
 
+        System.out.println("Alex");
         Document xml = new XML(xmlList);
 
         ArrayList<Document> documente = new ArrayList<>();
